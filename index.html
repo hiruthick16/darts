@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darts 501 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Darts 501 Game</h1>
+        <p>Enter your 3 dart scores:</p>
+        <input type="number" id="dart1" placeholder="Dart 1" min="0" max="60">
+        <input type="number" id="dart2" placeholder="Dart 2" min="0" max="60">
+        <input type="number" id="dart3" placeholder="Dart 3" min="0" max="60">
+        <br>
+        <button onclick="throwDarts()">Throw</button>
+        <div class="score-display">
+            <p id="score">Score: 501</p>
+            <p id="status"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
